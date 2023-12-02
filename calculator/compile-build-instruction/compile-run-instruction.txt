@@ -1,0 +1,28 @@
+//compile
+g++ -o calculatortest calculator/calculator-test/calculator_test.cpp  calculator/Application/calculator.cpp  calculator/logger/logger.cpp -lrdkafka++  -lgtest -lgtest_main -pthread  -std=c++17 
+g++ -o producer calculator/Application/producer.cpp  calculator/Application/calculator.cpp calculator/logger/logger.cpp -lrdkafka++ -std=c++17 
+g++ -o consumer calculator/Application/consumer.cpp  calculator/Application/calculator.cpp calculator/logger/logger.cpp -lrdkafka++ -std=c++17 
+
+
+
+//run- producer and consumer seperately but before that make sure that  below commands has been run on different terminals
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
+
+for running producer and consumer follow below commands
+./producer
+./consumer
+
+
+
+for unit testing of calculator run this
+./calculatortest
+
+
+
+folder details
+Application->actual logic of calculator application with producer and consumer
+calculator_test->testing of calculator using gtest
+headers->.h file
+logger->logger implementation
+

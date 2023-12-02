@@ -1,0 +1,209 @@
+2023-11-30 00:12:06 Info [main] [produceMessage]: Produced message: Operation: 1, Operand1: 5, Operand2: 5
+2023-11-30 00:12:06 Info [Calculator] [add]: Addition result: Operand1=5.000000, Operand2=5.000000, Result=10.000000
+2023-11-30 00:12:06 Info [main] [messageReceived]: Received message: Operation=1, Operand1=5.000000, Operand2=5.000000, Result=10.000000
+2023-11-30 00:20:39 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-11-30 00:20:39 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-11-30 00:20:39 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-11-30 00:20:39 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-11-30 00:20:39 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-11-30 00:20:39 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-11-30 00:20:39 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-11-30 00:20:39 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-11-30 00:25:51 Info [main] [produceMessage]: Produced message: Operation: 4, Operand1: 6, Operand2: 8
+2023-11-30 00:25:51 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=8.000000, Result=0.750000
+2023-11-30 00:25:51 Info [main] [messageReceived]: Received message: Operation=4, Operand1=6.000000, Operand2=8.000000, Result=0.750000
+2023-11-30 00:25:51 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=8.000000, Result=0.750000
+2023-11-30 00:25:51 Info [main] [messageReceived]: Received message: Operation=4, Operand1=6.000000, Operand2=8.000000, Result=0.750000
+2023-11-30 00:26:06 Info [main] [produceMessage]: Produced message: Operation: 4, Operand1: 9, Operand2: 0
+2023-11-30 00:26:06 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=9.000000
+2023-11-30 00:26:06 Info [main] [messageReceived]: Received message: Operation=4, Operand1=9.000000, Operand2=0.000000, Result=0.000000
+2023-11-30 00:26:06 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=9.000000
+2023-11-30 00:26:06 Info [main] [messageReceived]: Received message: Operation=4, Operand1=9.000000, Operand2=0.000000, Result=0.000000
+2023-11-30 00:26:23 Info [main] [produceMessage]: Produced message: Operation: 4, Operand1: 0, Operand2: 0
+2023-11-30 00:26:23 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=0.000000
+2023-11-30 00:26:23 Info [main] [messageReceived]: Received message: Operation=4, Operand1=0.000000, Operand2=0.000000, Result=0.000000
+2023-11-30 00:26:23 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=0.000000
+2023-11-30 00:26:23 Info [main] [messageReceived]: Received message: Operation=4, Operand1=0.000000, Operand2=0.000000, Result=0.000000
+2023-11-30 00:26:49 Info [main] [produceMessage]: Produced message: Operation: 4, Operand1: 0, Operand2: 9
+2023-11-30 00:26:49 Info [Calculator] [divide]: Division result: Operand1=0.000000, Operand2=9.000000, Result=0.000000
+2023-11-30 00:26:49 Info [main] [messageReceived]: Received message: Operation=4, Operand1=0.000000, Operand2=9.000000, Result=0.000000
+2023-11-30 00:26:49 Info [Calculator] [divide]: Division result: Operand1=0.000000, Operand2=9.000000, Result=0.000000
+2023-11-30 00:26:49 Info [main] [messageReceived]: Received message: Operation=4, Operand1=0.000000, Operand2=9.000000, Result=0.000000
+2023-11-30 00:31:00 Info [main] [produceMessage]: Produced message: Operation: 2, Operand1: 6, Operand2: 8
+2023-11-30 00:31:00 Info [Calculator] [subtract]: Subtraction result: Operand1=6.000000, Operand2=8.000000, Result=-2.000000
+2023-11-30 00:31:00 Info [main] [messageReceived]: Received message: Operation=2, Operand1=6.000000, Operand2=8.000000, Result=-2.000000
+2023-11-30 00:39:13 Info [main] [produceMessage]: Produced message: Operation: 1, Operand1: 7, Operand2: 9
+2023-11-30 00:39:13 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-11-30 00:39:13 Info [main] [messageReceived]: Received message: Operation=1, Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-11-30 18:35:37 Info [main] [produceMessage]: Produced message: Operation: 5, Operand1: 78
+2023-11-30 18:35:37 Info [main] [messageReceived]: Received message: Operation=5, Operand1=78.000000, Operand2=0.000000, Result=0.000000
+2023-12-01 02:42:55 Info [main] [produceMessage]: Produced message: Operation: 5, Operand1: 5
+2023-12-01 02:42:55 Info [main] [messageReceived]: Received message: Operation=5, Operand1=5.000000, Factorial Result=120
+2023-12-01 02:43:17 Info [main] [produceMessage]: Produced message: Operation: 5, Operand1: 56
+2023-12-01 02:43:17 Info [main] [messageReceived]: Received message: Operation=5, Operand1=56.000000, Factorial Result=29624941158535977160585235310988539572354082453382019111976960000000000000
+2023-12-01 02:46:39 Info [main] [produceMessage]: Produced message: Operation: 1, Operand1: 4, Operand2: 7
+2023-12-01 02:46:39 Info [Calculator] [add]: Addition result: Operand1=4.000000, Operand2=7.000000, Result=11.000000
+2023-12-01 02:46:39 Info [main] [messageReceived]: Received message: Operation=1, Operand1=4.000000, Operand2=7.000000, Result=11.000000
+2023-12-01 02:46:53 Info [main] [produceMessage]: Produced message: Operation: 2, Operand1: 5, Operand2: 6
+2023-12-01 02:46:53 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=6.000000, Result=-1.000000
+2023-12-01 02:46:53 Info [main] [messageReceived]: Received message: Operation=2, Operand1=5.000000, Operand2=6.000000, Result=-1.000000
+2023-12-01 02:47:03 Info [main] [produceMessage]: Produced message: Operation: 3, Operand1: 6, Operand2: 7
+2023-12-01 02:47:03 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=7.000000, Result=42.000000
+2023-12-01 02:47:03 Info [main] [messageReceived]: Received message: Operation=3, Operand1=6.000000, Operand2=7.000000, Result=42.000000
+2023-12-01 02:47:16 Info [main] [produceMessage]: Produced message: Operation: 4, Operand1: 6, Operand2: 3
+2023-12-01 02:47:16 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 02:47:16 Info [main] [messageReceived]: Received message: Operation=4, Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 02:49:32 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 02:49:32 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 02:49:32 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 02:49:32 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 02:49:32 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 02:49:32 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 02:49:32 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 02:49:32 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:14:56 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:14:56 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:14:56 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:14:56 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:14:56 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:14:56 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:14:56 Info [Calculator] [add]: Addition result: Operand1=6.000000, Operand2=5.000000, Result=11.000000
+2023-12-01 12:14:56 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:14:56 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:14:56 Info [Calculator] [add]: Addition result: Operand1=9.000000, Operand2=3.000000, Result=12.000000
+2023-12-01 12:14:56 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:14:56 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:16:09 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:16:09 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:16:09 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:16:09 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:16:09 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:16:09 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:16:09 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:16:09 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:16:09 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:16:09 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:16:09 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:16:09 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:17:46 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:17:46 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:17:46 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:17:46 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:17:46 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:17:46 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:17:46 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:17:46 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:17:46 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:17:46 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:17:46 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:17:46 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:18:03 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:18:03 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:18:03 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:18:03 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:18:03 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:18:03 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:18:03 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:18:03 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:18:03 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:18:03 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:18:03 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:18:03 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:19:44 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:19:44 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:19:44 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:19:44 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:19:44 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:19:44 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:19:44 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:19:44 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:19:44 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:19:44 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:19:44 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:19:44 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:21:10 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:21:10 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:21:10 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:21:10 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:21:10 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:21:10 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:21:10 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:21:10 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:21:10 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:21:10 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:21:10 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:21:10 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:23:33 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:23:33 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:23:33 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:23:33 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:23:33 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:23:33 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:23:33 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:23:33 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:23:33 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:23:33 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:23:33 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:23:33 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:24:28 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:24:28 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:24:28 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:24:28 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:24:28 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:24:28 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:24:28 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:24:28 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:24:28 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:24:28 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:24:28 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:24:28 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:24:42 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:24:42 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:24:42 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:24:42 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:24:42 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:24:42 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:24:42 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:24:42 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:24:42 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:24:42 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:24:42 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:24:42 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:25:46 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:25:46 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:25:46 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:25:46 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:25:46 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:25:46 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:25:46 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:25:46 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:25:46 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:25:46 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:25:46 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:25:46 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:26:34 Info [Calculator] [add]: Addition result: Operand1=7.000000, Operand2=9.000000, Result=16.000000
+2023-12-01 12:26:34 Info [Calculator] [add]: Addition result: Operand1=2.000000, Operand2=3.000000, Result=5.000000
+2023-12-01 12:26:34 Info [Calculator] [add]: Addition result: Operand1=-1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:26:34 Info [Calculator] [subtract]: Subtraction result: Operand1=7.000000, Operand2=9.000000, Result=-2.000000
+2023-12-01 12:26:34 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:26:34 Info [Calculator] [subtract]: Subtraction result: Operand1=1.000000, Operand2=1.000000, Result=0.000000
+2023-12-01 12:26:34 Info [Calculator] [multiply]: Multiplication result: Operand1=6.000000, Operand2=5.000000, Result=30.000000
+2023-12-01 12:26:34 Info [Calculator] [multiply]: Multiplication result: Operand1=2.000000, Operand2=3.000000, Result=6.000000
+2023-12-01 12:26:34 Info [Calculator] [multiply]: Multiplication result: Operand1=-1.000000, Operand2=1.000000, Result=-1.000000
+2023-12-01 12:26:34 Info [Calculator] [divide]: Division result: Operand1=9.000000, Operand2=3.000000, Result=3.000000
+2023-12-01 12:26:34 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:26:34 Error [Calculator] [divide]: Error in divide: Division by zero. Operand1=1.000000
+2023-12-01 12:30:32 Info [main] [produceMessage]: Produced message: Operation: 1, Operand1: 6, Operand2: 8
+2023-12-01 12:30:33 Info [Calculator] [add]: Addition result: Operand1=6.000000, Operand2=8.000000, Result=14.000000
+2023-12-01 12:30:33 Info [main] [messageReceived]: Received message: Operation=1, Operand1=6.000000, Operand2=8.000000, Result=14.000000
+2023-12-01 12:30:54 Info [main] [produceMessage]: Produced message: Operation: 2, Operand1: 5, Operand2: 4
+2023-12-01 12:30:54 Info [Calculator] [subtract]: Subtraction result: Operand1=5.000000, Operand2=4.000000, Result=1.000000
+2023-12-01 12:30:54 Info [main] [messageReceived]: Received message: Operation=2, Operand1=5.000000, Operand2=4.000000, Result=1.000000
+2023-12-01 12:31:31 Info [main] [produceMessage]: Produced message: Operation: 3, Operand1: 7, Operand2: 5
+2023-12-01 12:31:31 Info [Calculator] [multiply]: Multiplication result: Operand1=7.000000, Operand2=5.000000, Result=35.000000
+2023-12-01 12:31:31 Info [main] [messageReceived]: Received message: Operation=3, Operand1=7.000000, Operand2=5.000000, Result=35.000000
+2023-12-01 12:31:41 Info [main] [produceMessage]: Produced message: Operation: 4, Operand1: 6, Operand2: 3
+2023-12-01 12:31:41 Info [Calculator] [divide]: Division result: Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:31:41 Info [main] [messageReceived]: Received message: Operation=4, Operand1=6.000000, Operand2=3.000000, Result=2.000000
+2023-12-01 12:31:56 Info [main] [produceMessage]: Produced message: Operation: 5, Operand1: 8
+2023-12-01 12:31:56 Info [main] [messageReceived]: Received message: Operation=5, Operand1=8.000000, Factorial Result=40320
