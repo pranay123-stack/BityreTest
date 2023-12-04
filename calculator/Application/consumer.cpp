@@ -33,7 +33,7 @@ int main()
         // Set bootstrap servers (replace localhost:9092 with your Kafka broker's address)
         if (conf->set("metadata.broker.list", "localhost:9092", errstr) != RdKafka::Conf::CONF_OK)
         {
-            Logger::logError("Failed to set broker list: " + errstr, "main", "setBrokerList");
+            Logger::logError("Failed to set broker list: " + errstr, "consumer[main function]", "setBrokerList");
             throw std::runtime_error("Failed to set broker list: " + errstr);
         }
 
@@ -41,7 +41,7 @@ int main()
         RdKafka::Consumer *consumer = RdKafka::Consumer::create(conf, errstr);
         if (!consumer)
         {
-            Logger::logError("Failed to create consumer: " + errstr, "main", "createConsumer");
+            Logger::logError("Failed to create consumer: " + errstr, "consumer[main function]", "createConsumer");
             throw std::runtime_error("Failed to create consumer: " + errstr);
         }
 
@@ -49,7 +49,7 @@ int main()
         RdKafka::Topic *topic = RdKafka::Topic::create(consumer, "my-topic", tconf, errstr);
         if (!topic)
         {
-            Logger::logError("Failed to create topic: " + errstr, "main", "createTopic");
+            Logger::logError("Failed to create topic: " + errstr, "consumer[main function]", "createTopic");
             throw std::runtime_error("Failed to create topic: " + errstr);
         }
 
@@ -57,7 +57,7 @@ int main()
 
         if (err)
         {
-            Logger::logError("Failed to start consumer: " + RdKafka::err2str(err), "main", "startConsumer");
+            Logger::logError("Failed to start consumer: " + RdKafka::err2str(err), "consumer[main function]", "startConsumer");
             throw std::runtime_error("Failed to start consumer: " + RdKafka::err2str(err));
         }
 
@@ -65,7 +65,7 @@ int main()
         std::ofstream outputFile("calculator.csv");
         if (!outputFile.is_open())
         {
-            Logger::logError("Failed to open the output file.", "main", "fileOpen");
+            Logger::logError("Failed to open the output file.", "consumer[main function]", "fileOpen");
             return 1;
         }
 
@@ -81,7 +81,7 @@ int main()
             {
                 if (message->err() != RdKafka::ERR__TIMED_OUT)
                 {
-                    Logger::logError("Error while consuming message: " + std::string(message->errstr()), "main", "consumeMessage");
+                    Logger::logError("Error while consuming message: " + std::string(message->errstr()), "consumer consumer[main function]", "consumeMessage");
                 }
                 delete message;
                 continue;
@@ -127,7 +127,7 @@ int main()
                 std::cout << "Factorial: " << res << std::endl;
                 break;
             default:
-                Logger::logError("Invalid operation.", "main", "invalidOperation");
+                Logger::logError("Invalid operation.", "consumer[main function]", "invalidOperation");
                 result = 0.0;
             }
 
@@ -135,13 +135,13 @@ int main()
             if (operation == 5) {
                 Logger::logInfo("Received message: Operation=" + std::to_string(operation) +
                                 ", Operand1=" + std::to_string(operand1) +
-                                ", Factorial Result=" + res.str(), "main", "messageReceived");
+                                ", Factorial Result=" + res.str(), "consumer[main function]", "messageReceived");
                 outputFile << Calculator::operationToString(operation) << "," << operand1  <<" " << res << "\n";
             } else {
                 Logger::logInfo("Received message: Operation=" + std::to_string(operation) +
                                 ", Operand1=" + std::to_string(operand1) +
                                 ", Operand2=" + std::to_string(operand2) +
-                                ", Result=" + std::to_string(result), "main", "messageReceived");
+                                ", Result=" + std::to_string(result), "consumer[main function]", "messageReceived");
                 outputFile << Calculator::operationToString(operation) << "," << operand1 << "," << operand2 << "," << result << "\n";
             }
 
@@ -153,15 +153,15 @@ int main()
     }
     catch (const std::runtime_error &e)
     {
-        Logger::logError("Runtime error caught: " + std::string(e.what()), "main", "runtimeErrorCaught");
+        Logger::logError("Runtime error caught: " + std::string(e.what()), "consumer[main function]", "runtimeErrorCaught");
     }
     catch (const std::exception &e)
     {
-        Logger::logError("Exception caught: " + std::string(e.what()), "main", "exceptionCaught");
+        Logger::logError("Exception caught: " + std::string(e.what()), "consumer[main function]", "exceptionCaught");
     }
     catch (...)
     {
-        Logger::logError("Unknown exception caught.", "main", "unknownException");
+        Logger::logError("Unknown exception caught.", "consumer[main function]", "unknownException");
     }
 
     // Cleanup (this part will never be reached in the loop)

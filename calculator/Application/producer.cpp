@@ -16,21 +16,21 @@ int main() {
     try {
         // Set bootstrap servers (replace localhost:9092 with your Kafka broker's address)
         if (conf->set("metadata.broker.list", "localhost:9092", errstr) != RdKafka::Conf::CONF_OK) {
-            Logger::logError("Failed to set broker list: " + errstr, "main", "setBrokerList");
+            Logger::logError("Failed to set broker list: " + errstr, "producer[main function]", "setBrokerList");
             throw std::runtime_error("Failed to set broker list: " + errstr);
         }
 
         // Create producer instance
         RdKafka::Producer *producer = RdKafka::Producer::create(conf, errstr);
         if (!producer) {
-            Logger::logError("Failed to create producer: " + errstr, "main", "createProducer");
+            Logger::logError("Failed to create producer: " + errstr, "producer[main function]", "createProducer");
             throw std::runtime_error("Failed to create producer: " + errstr);
         }
 
         // Create topic instance
         RdKafka::Topic *topic = RdKafka::Topic::create(producer, "my-topic", nullptr, errstr);
         if (!topic) {
-            Logger::logError("Failed to create topic: " + errstr, "main", "createTopic");
+            Logger::logError("Failed to create topic: " + errstr, "producer[main function]", "createTopic");
             delete producer;
             delete conf;
             throw std::runtime_error("Failed to create topic: " + errstr);
@@ -71,20 +71,20 @@ int main() {
                                                         nullptr, 0, nullptr);
 
             if (resp != RdKafka::ERR_NO_ERROR) {
-                Logger::logError("Failed to produce message: " + RdKafka::err2str(resp), "main", "produceMessage");
+                Logger::logError("Failed to produce message: " + RdKafka::err2str(resp), "producer[main function]", "produceMessage");
             } else {
-                Logger::logInfo("Produced message: " + message.str(), "main", "produceMessage");
+                Logger::logInfo("Produced message: " + message.str(), "producer[main function]", "produceMessage");
             }
 
             // Wait for a short interval before producing the next message
             std::this_thread::sleep_for(std::chrono::seconds(1));
         }
     } catch (const std::runtime_error& e) {
-        Logger::logError("Runtime error caught: " + std::string(e.what()), "main", "runtimeErrorCaught");
+        Logger::logError("Runtime error caught: " + std::string(e.what()), "producer[main function]", "runtimeErrorCaught");
     } catch (const std::exception& e) {
-        Logger::logError("Exception caught: " + std::string(e.what()), "main", "exceptionCaught");
+        Logger::logError("Exception caught: " + std::string(e.what()), "producer[main function]", "exceptionCaught");
     } catch (...) {
-        Logger::logError("Unknown exception caught.", "main", "unknownException");
+        Logger::logError("Unknown exception caught.", "producer[main function]", "unknownException");
     }
 
     // Cleanup (this part will never be reached in the loop)

@@ -47,6 +47,7 @@ double Calculator::add(double operand1, double operand2)
 {
     try
     {
+        
         double result = operand1 + operand2;
         Logger::logInfo("Addition result: Operand1=" + std::to_string(operand1) +
                             ", Operand2=" + std::to_string(operand2) +
@@ -174,6 +175,9 @@ boost::multiprecision::cpp_int Calculator::factorial(unsigned long long int num)
     {
         workers[i].join();
     }
-
+    
+    Logger::logInfo("factorial result: Operand1=" + boost::lexical_cast<std::string>(num)
+                     + " Result=" + boost::lexical_cast<std::string>(result),
+                 "Calculator", "factorial");
     return result;
 }

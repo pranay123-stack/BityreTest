@@ -1,6 +1,7 @@
 Operation,Operand1,Operand2,Result
-add,6,8,14
-subtract,5,4,1
-multiply,7,5,35
-divide,6,3,2
-factorial,8, Factorial Result: 40320
+factorial,7 5040
+add,6,7,13
+subtract,34,98,-64
+multiply,78,32,2496
+divide,45,9,5
+factorial,6 720
